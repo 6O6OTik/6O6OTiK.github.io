@@ -1,0 +1,71 @@
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  background-color: black;
+}
+h1 {
+	margin-bottom: 10px;
+}
+.container {
+	position: relative;
+	background-color: #ff1921;
+	max-height: 300px;
+	max-width: 300px;
+	border: 1px solid #fff;
+	width: 300px;
+	height: 300px;
+	cursor: pointer;
+}
+.banner-title {
+	font-family: "Lato-Medium";
+	font-size: 29px;
+	margin-top: 22px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	line-height: 1.25;
+}
+.banner-description {
+	font-family: "lato-Medium";
+	font-size: 23px;
+	margin-top: 16px;
+	text-align: center;
+}
+.banner-description__link {
+	color: #fff;
+	text-decoration: none;
+}
+.banner-description__icon {
+	font-size: 20px;
+}
+.banner-bottom{
+	position: absolute;
+	bottom: 0;
+}
+
+.banner-logo {
+	margin-bottom: 32px;
+	margin-left: 38px;
+}
+.banner-logo__img {
+	display: inline-block;
+	background: url('icon.png') 0 0 no-repeat;
+	width: 30px;
+	height: 35px;
+}
+.banner-logo__img:before {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	width: 1%;
+	vertical-align: middle;
+}
+.banner-logo__name-company {
+	display: inline-block;
+	vertical-align: middle;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: "Lato-Medium";
+	font-size: 30px;
+	letter-spacing: 1.7px;
+}
